@@ -1,0 +1,31 @@
+<form class="row g-3" id="form-b">
+    <div class="col-auto">
+        <label for="staticSeg class=visually-hidden">N° de seguimiento</label>
+        <div class="col-6">
+            <label for="inputPassword2" class="visually-hidden">Número</label>
+            <input type="tel" class="form-control" id="inputPassword2" placeholder="Número" pattern="^\d{9}$" required>
+        </div>
+        <div class="col-auto">
+            <button type="button" class="btn btn-primary mb-3" id="buscar" onclick="buscarSeguimiento();">Buscar</button>
+        </div>
+    </div>
+
+</form>
+
+<div class="toast">
+    <div class="toast-header">
+        <strong class="me-auto">Lo sentimos :(</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+    </div>
+    <div class="toast-body">
+        <p>Lo sentimos, no se ha encontrado ningún envío con ese número</p>
+    </div>
+</div>
+
+
+
+<br>
+
+
+<script src="js/seguimiento.js"></script>
+</body>

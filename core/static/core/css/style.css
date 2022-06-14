@@ -1,0 +1,145 @@
+.nosotros {
+    width: 100%;
+    padding: 5px;
+}
+
+#form-a {
+    background-color: rgba(0, 0, 0, 0.815);
+    margin-top: 40px;
+    border-radius: 12px;
+    text-align: left;
+    margin-left: 650px;
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 20px !important;
+}
+
+#form-b {
+    background-color: rgba(1, 1, 1, 0.791) !important;
+    text-align: center !important;
+    color: rgba(246, 246, 246, 0.786) !important;
+    font-size: 100px !important;
+}
+
+#button {
+    background-color: rgba(48, 98, 117, 0.856);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    margin-left: 250px;
+}
+
+.form-group {
+    padding: 5px;
+}
+
+.ban,
+.corr,
+.iden {
+    background-color: rgba(253, 253, 252, 0.642);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.badge {
+    font-size: 30px !important;
+    ;
+}
+
+footer {
+    width: 100%;
+    height: 81px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* estilo estrellas cards */
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#form p {
+    text-align: center;
+}
+
+#form label {
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: grey;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover~label {
+    color: orange;
+}
+
+input[type="radio"]:checked~label {
+    color: orange;
+}
+
+
+/* edicion de background  en header*/
+
+.header {
+    background: url(/img/background/background.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header .navbar {
+    background-color: transparent !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: 100;
+    line-height: 200%;
+}
+
+
+/* edicion de carrusel */
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 680px;
+}
+
+
+/* edicion de cards de inicio */
+
+
+/* se leagrega sombra  */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 2px 16px;
+    /* 5px rounded corners */
+}
+
+
+/* efecto al pasar por encima con el mouse */
+
+.card:hover {
+    box-shadow: 0 20px 16px 0 rgba(0, 183, 255, 0.2);
+}
+
+.btn {
+    background-color: hsla(194, 79%, 55%, 0.603);
+    color: aliceblue;
+}

@@ -1,0 +1,58 @@
+<!-- formulario -->
+<form class="col-5" id="form-a">
+
+    <h1 class="Tit-form text-center">Contacto</h1>
+    <br>
+    <br>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre@ejemplo.com">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Nombre</label>
+        <input type="text" class="form-control" placeholder="Nombre" required>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Apellidos</label>
+        <input type="text" class="form-control" placeholder="Apellidos" required>
+        <br>
+    </div>
+    <br>
+    <div id="num" class="input-group form-outline">
+        <span class="input-group-text" id="inputGroupPrepend2">+56</span>
+        <input type="tel" class="form-control" id="validationDefaultTel" pattern="^\d{9}$" required placeHolder=987654321 />
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Regiones</label>
+        <select class="form-control" id="SelectRegiones" onchange="cambiar_comunas(this)"> <!--funcion para que cuando cambie el valor de region se busquen las comunas-->
+                <option value="" selected disabled hidden>Seleccione...</option>
+        </select>
+    </div>
+    <br>
+    <div class="form-group">
+        <label id="LblComunas" for="exampleFormControlSelect2">Comunas</label>
+        <select class="form-control" id="SelectComunas">
+                <option value="" selected disabled hidden>Seleccione...</option>
+        </select>
+    </div>
+    <br>
+
+
+    <div id="check" class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required />
+        <label class="form-check-label" for="invalidCheck2">Acepto enviar mi información</label>
+    </div>
+    <div id="btn-contacto">
+        <button id="button" type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+
+</form>
+
+<!-- valiadacion formulario  -->
+<script src="/js/scripts.js"></script>
+
+<!-- scripts de librerias -->
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>

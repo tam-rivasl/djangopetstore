@@ -1,0 +1,100 @@
+<br>
+<h1 class="corr">FUNDACIONES</h1>
+<br>
+<br>
+<br>
+<div class="row">
+    <div class="column">
+        <img src="{% static 'core/img/donaciones/2016-10-18_11-22-26_5_619.png'%}" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+        <img src="{% static 'core/img/donaciones/2016-10-19_08-54-30_8_627.png'%}" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+        <img src="{% static 'core/img/donaciones/2016-10-19_09-51-25_11_631.jpg'%}" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column">
+        <img src="{% static 'core/img/donaciones/2017-11-07_15-25-09_27_1787.jpg'%}" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+
+    <div class="column">
+        <img src="{% static 'core/img/donaciones/5_logo-organizacion-dame-vida-tenjo_1000x666.png'%}" onclick="openModal();currentSlide(5)" class="hover-shadow">
+    </div>
+
+    <div class="column">
+        <img src="{% static 'core/img/donaciones/Fundacion-YO-AMO-ANIMALES.jpg'%}'%}" onclick="openModal();currentSlide(6)" class="hover-shadow">
+    </div>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="{% static 'core/img/donaciones/2016-10-18_11-22-26_5_619.png'%}" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="{% static 'core/img/donaciones/2016-10-19_08-54-30_8_627.png'%}" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="{% static 'core/img/donaciones/2016-10-19_09-51-25_11_631.jpg'%}" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="{% static 'core/img/donaciones/2017-11-07_15-25-09_27_1787.jpg'%}" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="{% static 'core/img/donaciones/2017-11-07_15-25-09_27_1787.jpg'%}" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="{% static 'core/img/donaciones/Fundacion-YO-AMO-ANIMALES.jpg'%}" style="width:100%">
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="column">
+            <img class="demo" src="{% static 'core/img/donaciones/2016-10-18_11-22-26_5_619.png'%}" onclick="currentSlide(1)" alt="">
+        </div>
+
+        <div class="column">
+            <img class="demo" src="{% static 'core/img/donaciones/2016-10-19_08-54-30_8_627.png'%}" onclick="currentSlide(2)" alt="">
+        </div>
+
+        <div class="column">
+            <img class="demo" src="{% static 'core/img/donaciones/2016-10-19_09-51-25_11_631.jpg'%}" onclick="currentSlide(3)" alt="">
+        </div>
+
+        <div class="column">
+            <img class="demo" src="{% static 'core/img/donaciones/2017-11-07_15-25-09_27_1787.jpg'%}" onclick="currentSlide(4)" alt="">
+        </div>
+
+        <div class="column">
+            <img class="demo" src="{% static 'core/img/donaciones/5_logo-organizacion-dame-vida-tenjo_1000x666.png'%}" onclick="currentSlide(5)" alt="">
+        </div>
+
+        <div class="column">
+            <img class="demo" src="{% static 'core/img/donaciones/Fundacion-YO-AMO-ANIMALES.jpg'%}" onclick="currentSlide(6)" alt="">
+        </div>
+
+    </div>
+</div>
